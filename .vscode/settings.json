@@ -1,9 +1,17 @@
 {
     "files.encoding": "utf8",
     "files.autoGuessEncoding": true,
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.windows": "PowerShell (UTF-8)",
     "terminal.integrated.profiles.windows": {
-        "Command Prompt": {
+        "PowerShell (UTF-8)": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "[Console]::OutputEncoding = [Text.Encoding]::UTF8; $OutputEncoding = [Text.Encoding]::UTF8"
+            ]
+        },
+        "Command Prompt (UTF-8)": {
             "path": "C:\\Windows\\System32\\cmd.exe",
             "args": [
                 "/K",
