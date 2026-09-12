@@ -4,7 +4,7 @@
     "terminal.integrated.defaultProfile.windows": "PowerShell (UTF-8)",
     "terminal.integrated.profiles.windows": {
         "PowerShell (UTF-8)": {
-            "source": "PowerShell",
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
             "args": [
                 "-NoExit",
                 "-Command",
